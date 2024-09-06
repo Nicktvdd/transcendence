@@ -1,3 +1,5 @@
+![Screenshot from 2024-09-06 10-46-05](https://github.com/user-attachments/assets/5f6bfec8-27a2-48a5-91b6-2bed6da55912)
+
 ### Ft_transcendence
 This project is our final project of core studies in Hive Helsinki coding school. It's a website that allows users to play the game of pong against each other. The game is played in real time, and the users can sucscribe to the website. The project is divided into two parts: the game server and the web server. The game server is responsible for managing the games and the web server is responsible for managing the users and user game history. The project is written in HTML, bootstrap, Javascript, Python, Django rest framework and uses a PostgreSQL database. The game server uses socket.io the real-time communication between the users.
 All the project is dockerized and uses docker-compose to run the project.
@@ -29,7 +31,6 @@ For online play need to have two registered users and one of them should create 
 You can find more information about the project in the README.md file in the backend directory of the project. every microservice has its own README.md file in its directory.
 
 ### Screenshots
-![Screenshot from 2024-09-06 10-46-05](https://github.com/user-attachments/assets/5f6bfec8-27a2-48a5-91b6-2bed6da55912)
 ![Screenshot from 2024-09-06 10-45-48](https://github.com/user-attachments/assets/ec9a0c45-a6dc-4640-a7e0-875ab3dec2fb)
 ![Screenshot from 2024-09-06 10-46-20](https://github.com/user-attachments/assets/d1637d71-4047-4bfa-89f6-2fcc69a03015)
 ![Screenshot from 2024-09-06 10-46-24](https://github.com/user-attachments/assets/95b1245f-4dac-4938-8974-6d65abac6494)
