@@ -27,3 +27,13 @@ You can replace `<HOSTNAME>` with the IP address or hostname of your machine tha
 For online play need to have two registered users and one of them should create a game and can join the game by clicking on online play.
 
 You can find more information about the project in the README.md file in the backend directory of the project. every microservice has its own README.md file in its directory.
+
+### Screenshots
+![Screenshot from 2024-09-06 10-47-31](https://github.com/user-attachments/assets/f4c0016d-d577-4b37-8110-397ad8d1a8c9)
+![Screenshot from 2024-09-06 10-46-59](https://github.com/user-attachments/assets/34721a30-3221-47b4-8e4a-dba3066a0572)
+![Screenshot from 2024-09-06 10-46-46](https://github.com/user-attachments/assets/9808f00e-5277-4247-b6b0-d6dc65baaeb8)
+![Screenshot from 2024-09-06 10-46-36](https://github.com/user-attachments/assets/4468c07e-49bf-4f93-8726-56655ad69935)
+![Screenshot from 2024-09-06 10-46-24](https://github.com/user-attachments/assets/95b1245f-4dac-4938-8974-6d65abac6494)
+![Screenshot from 2024-09-06 10-46-20](https://github.com/user-attachments/assets/d1637d71-4047-4bfa-89f6-2fcc69a03015)
+![Screenshot from 2024-09-06 10-46-05](https://github.com/user-attachments/assets/5f6bfec8-27a2-48a5-91b6-2bed6da55912)
+![Screenshot from 2024-09-06 10-45-48](https://github.com/user-attachments/assets/ec9a0c45-a6dc-4640-a7e0-875ab3dec2fb)
