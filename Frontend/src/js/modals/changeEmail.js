@@ -1,7 +1,6 @@
 import { showMessage } from './messages.js';
-import { handleTokenVerification } from '../tokenHandler.js'; // Import your token verification function
+import { handleTokenVerification } from '../tokenHandler.js';
 
-// Function to toggle the email update form visibility
 export function toggleEmailForm() {
     const updateEmailForm = document.getElementById('updateEmailForm');
     const emailVerificationForm = document.getElementById('emailVerificationForm');

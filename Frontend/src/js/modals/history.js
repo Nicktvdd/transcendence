@@ -15,7 +15,6 @@ export function updateMatchHistory() {
     fetch(`/game-history/`, {
         method: 'GET',
         headers: {
-            // Include authorization headers if needed
         }
     })
     .then(response => {

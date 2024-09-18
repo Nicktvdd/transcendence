@@ -1,6 +1,5 @@
 import { updateAuthButton } from "./modals/buttons";
 
-// Function to refresh the token
 function refreshTokenRequest(userData) {
     return fetch('/auth/token/refresh/', {
         method: 'POST',
@@ -27,7 +26,6 @@ function refreshTokenRequest(userData) {
     });
 }
 
-// Function to verify the token on the backend
 function verifyToken(userData) {
     return fetch('/auth/token/validate-token/', {
         method: 'POST',
@@ -54,8 +52,7 @@ export function handleTokenVerification() {
         if (isValid) {
             return userData.token; // Token is valid
         } else {
-            // Token is expired, refresh the token
-            return refreshTokenRequest(userData);
+            return refreshTokenRequest(userData); // Token is expired, refresh the token
         }
     });
 }

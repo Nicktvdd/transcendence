@@ -24,7 +24,6 @@ export function createModal(modalId, modalTitle, content) {
     // Correctly reference the modal by its full ID including "Modal" suffix
     const modalElement = new bootstrap.Modal(document.getElementById(`${modalId}Modal`));
 
-    // Function to show the modal and set URL hash
     function showModal() {
         modalElement.show();
         if (window.location.hash !== `#${modalId}`) {
@@ -32,7 +31,6 @@ export function createModal(modalId, modalTitle, content) {
         }
     }
 
-    // Function to hide the modal and clear URL hash
     function hideModal() {
         modalElement.hide();
         if (window.location.hash === `#${modalId}`) {
@@ -40,21 +38,18 @@ export function createModal(modalId, modalTitle, content) {
         }
     }
 
-    // Add event listener to hidden modal and clear URL hash when modal is hidden
     modalElement._element.addEventListener('hidden.bs.modal', function () {
         if (window.location.hash === `#${modalId}`) {
             history.back();
         }
     });
 
-    // Add event listener to set URL hash when modal is shown
     modalElement._element.addEventListener('shown.bs.modal', function () {
         if (window.location.hash !== `#${modalId}`) {
             window.location.hash = modalId;
         }
     });
 
-    // Listen for hashchange events to handle back/forward navigation
     window.addEventListener('hashchange', function () {
         if (window.location.hash === `#${modalId}`) {
             modalElement.show();
@@ -74,7 +69,6 @@ export function createModal(modalId, modalTitle, content) {
         modalElement.show();
     }
 
-    // Return the modal element and show/hide functions for further use if needed
     return {
         modalElement,
         showModal,

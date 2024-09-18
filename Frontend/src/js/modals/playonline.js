@@ -11,7 +11,6 @@ const lobbyContent = document.getElementById('lobbyContent');
 const pongModal = new bootstrap.Modal(pongModalElement);
 const waitingLobbyModal = new bootstrap.Modal(waitingLobbyModalElement);
 
-// Function to open the waiting lobby
 export function openWaitingLobby() {
     waitingLobbyModal.show();
     const cancelButton = document.getElementById('cancelOnlinePlay');

@@ -1,7 +1,6 @@
 import { showMessage } from './messages.js';
-import { handleTokenVerification } from '../tokenHandler.js';// Import your token verification function
+import { handleTokenVerification } from '../tokenHandler.js';
 
-// Function to toggle the profile picture update form visibility
 export function toggleProfilePictureForm() {
     const imageUploadForm = document.getElementById('imageUploadForm');
     if (imageUploadForm.style.display === 'none' || imageUploadForm.style.display === '') {
@@ -12,7 +11,6 @@ export function toggleProfilePictureForm() {
     }
 }
 
-// Function to handle the profile picture update process
 export function handleProfilePictureUpdate(userData) {
     document.getElementById('imageInput').addEventListener('change', (event) => {
         const fileInput = event.target;

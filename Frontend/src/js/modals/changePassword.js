@@ -1,7 +1,6 @@
 import { showMessage } from './messages.js';
-import { handleTokenVerification } from '../tokenHandler.js'; // Import your token verification function
+import { handleTokenVerification } from '../tokenHandler.js';
 
-// Function to toggle the password update form visibility
 export function togglePasswordForm() {
     const updatePasswordForm = document.getElementById('updatePasswordForm');
     if (updatePasswordForm.style.display === 'none' || updatePasswordForm.style.display === '') {
@@ -12,7 +11,6 @@ export function togglePasswordForm() {
     }
 }
 
-// Function to handle the password update process
 export function handlePasswordUpdate(userData) {
     document.getElementById('updatePasswordForm').addEventListener('submit', (event) => {
         event.preventDefault();

@@ -36,7 +36,6 @@ createModal('tournament', 'Tournament', `
             </div>
         </div>
         <div id="playerAliasInputs" style="display: none;">
-                <!-- Player alias inputs will be dynamically added here -->
         </div>
         <button type="submit" id="startTournament" class="submit">Play</button>
         <button type="button" id="randomNamesButton" class="submit">Randomize Names</button>
@@ -104,6 +103,7 @@ createModal('login', 'Log in', `
             <button type="button" id="cancelLoginVerificationButton" class="submit">Cancel</button>
         </div>
     </form>`);
+    
 createModal('logout', 'Log out', `
     <div class="modal-body">
         <p class="ErrorMessage">Are you sure you want to log out?</p>
